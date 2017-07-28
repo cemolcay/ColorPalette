@@ -12,6 +12,7 @@
 		B23A772C1F2BC81700A5F916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23A772A1F2BC81700A5F916 /* Main.storyboard */; };
 		B23A772E1F2BC81700A5F916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23A772D1F2BC81700A5F916 /* Assets.xcassets */; };
 		B23A77311F2BC81700A5F916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23A772F1F2BC81700A5F916 /* LaunchScreen.storyboard */; };
+		B23A77391F2BC82700A5F916 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A77381F2BC82700A5F916 /* ColorPaletteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B23A772D1F2BC81700A5F916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B23A77301F2BC81700A5F916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B23A77321F2BC81700A5F916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23A77381F2BC82700A5F916 /* ColorPaletteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		B23A77251F2BC81700A5F916 /* ColorPalette */ = {
 			isa = PBXGroup;
 			children = (
+				B23A77381F2BC82700A5F916 /* ColorPaletteView.swift */,
 				B23A77261F2BC81700A5F916 /* AppDelegate.swift */,
 				B23A77281F2BC81700A5F916 /* ViewController.swift */,
 				B23A772A1F2BC81700A5F916 /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B23A77291F2BC81700A5F916 /* ViewController.swift in Sources */,
+				B23A77391F2BC82700A5F916 /* ColorPaletteView.swift in Sources */,
 				B23A77271F2BC81700A5F916 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +269,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 77Y3N48SNF;
 				INFOPLIST_FILE = ColorPalette/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.ColorPalette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 77Y3N48SNF;
 				INFOPLIST_FILE = ColorPalette/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.ColorPalette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +310,7 @@
 				B23A77371F2BC81700A5F916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
