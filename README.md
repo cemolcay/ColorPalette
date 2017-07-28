@@ -27,6 +27,7 @@ Usage
 Create a `ColorPaletteView` either from storyboard or programmatically.  
 Set `rowCount` and `columnCount` to setup palette grid. (Defaults 2x10).  
 Implement `delegate` and `dataSource`.  
+Call `reloadPalette()` function to reload with new colors.
 
 #### ColorPaletteViewDataSource
 
